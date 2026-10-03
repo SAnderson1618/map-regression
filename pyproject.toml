@@ -24,6 +24,9 @@ dependencies = [
     "matplotlib", # WHY: Foundational plotting library for data visualization
     "pandas", # WHY: DataFrame library for data manipulation and analysis.
     "duckdb", # WHY: Analytical database engine for SQL queries on DataFrames.
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "openpyxl>=3.1.5",
 ]
 
 [dependency-groups]
